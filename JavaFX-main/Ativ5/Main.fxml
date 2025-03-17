@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="center" spacing="10" style="-fx-padding: 20px;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.14-internal" fx:controller="com.parimpar.ativ5.SimuladorController">
+    <TextField fx:id="usernameField" promptText="Usuário" />
+    <PasswordField fx:id="passwordField" promptText="Senha" />
+    <Button onAction="#verificarLogin" text="Entrar" textFill="#1100ff">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></Button>
+    <Label fx:id="resultLabel" />
+</VBox>

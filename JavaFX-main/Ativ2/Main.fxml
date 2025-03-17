@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.parimpar.ativ2.ParImparController" spacing="10" alignment="center" style="-fx-padding: 20px;">
+  <TextField fx:id="textField" promptText="Digite um número" />
+  <Button text="Verificar" onAction="#verificarNumero" />
+  <Label fx:id="resultLabel" />
+</VBox>

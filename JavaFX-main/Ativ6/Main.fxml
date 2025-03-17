@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="center" spacing="10" style="-fx-padding: 20px;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.14-internal" fx:controller="com.parimpar.ativ6.MainController">
+    <TextField fx:id="minField" promptText="Valor Mínimo" />
+    <TextField fx:id="maxField" promptText="Valor Máximo" />
+    <Button onAction="#gerarNumeroAleatorio" text="Gerar" textFill="#3000ff">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></Button>
+    <Label fx:id="resultLabel" />
+</VBox>

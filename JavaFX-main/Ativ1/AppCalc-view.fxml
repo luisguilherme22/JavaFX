@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="337.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.appcalc.appcalc.AppCalcController">
+   <children>
+      <Pane prefHeight="229.0" prefWidth="292.0">
+         <children>
+            <Label layoutX="160.0" layoutY="25.0" prefHeight="25.0" prefWidth="194.0" text="Calculadora Simples" textFill="#2f00ff">
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font></Label>
+            <Label layoutX="117.0" layoutY="67.0" text="Número 1:" />
+            <Label layoutX="118.0" layoutY="101.0" text="Número 2:" />
+            <Button layoutX="220.0" layoutY="141.0" mnemonicParsing="false" onAction="#ClickTeste" text="CALCULAR" />
+            <TextField fx:id="num1" layoutX="186.0" layoutY="63.0" prefHeight="25.0" prefWidth="204.0" />
+            <TextField fx:id="num2" layoutX="186.0" layoutY="97.0" prefHeight="25.0" prefWidth="204.0" />
+            <Label fx:id="resultado" layoutX="121.0" layoutY="203.0" textFill="#2418ce">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</VBox>

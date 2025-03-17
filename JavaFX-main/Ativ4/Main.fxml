@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="center" spacing="10" style="-fx-padding: 20px;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.14-internal" fx:controller="com.parimpar.ativ4.InverterController">
+  <TextField fx:id="textField" promptText="Digite um texto" />
+  <Button onAction="#inverterTexto" text="Inverter" textFill="#5e00ff">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></Button>
+  <TextField fx:id="resultTextField" editable="false" promptText="Texto invertido" />
+</VBox>
